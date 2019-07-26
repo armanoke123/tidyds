@@ -70,7 +70,7 @@ Hasil eksekusi kode di atas pada dasarnya adalah obyek berupa *vector*. *Vector*
 Struktur obyek dalam bahasa pemrograman R dapat dikategorikan berdasarkan dimensi dan homogenitas dari elemennya. Obyek dengan satu dimensi dan elemen yang homogen disebut sebagai *atomic vector*, sedangkan apabila elemennya heterogen maka disebut dengan *list*. Cara untuk membuat *atomic vector* adalah dengan elemen lebih dari satu adalah dengan menggunakan fungsi `c()`, sedangkan untuk *list* dengan menggunakan fungsi `list()`. Perhatikan contoh berikut:
 
 ```{r}
-c(1, 2, 3, 4)
+c(1, 2, 3, 4, 5)
 c("r", "academy", "telkom", "university")
 list(15, "r", "TRUE", 24L)
 ```

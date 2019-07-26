@@ -15,8 +15,8 @@ knitr::opts_chunk$set(
 > Dalam modul ini Anda akan menggunakan konsep Grammar of Graphics untuk membuat visualisasi data.
 
 R merupakan bahasa pemrograman yang terkenal akan kemampuannya dalam menghasilkan grafik atau visualisasi data dengan baik. Penting diketahui bahwa R memiliki berbagai sistem dan paket untuk pembuatan grafik, contohnya `base`, `lattice`, `ggplot`, dan lain-lain. Namun dalam pelatihan ini Anda diajak untuk berfokus menggunakan sistem `ggplot` untuk membuat visualisasi data.
-
-Sistem pembuatan grafik dengan `ggplot` dapat dilakukan dengan menggunakan paket `ggplot2` yang merupakan implementasi dari konsep *Grammar of graphic* untuk bahasa pemrograman R. Anda dapat membaca artikel mengenai konsep tersebut melalui pranala [ini](http://vita.had.co.nz/papers/layered-grammar.pdf). Dengan memahami konsep dari *grammar of graphic*, Anda dapat membuat berbagai jenis plot dengan ringkas dan mudah. Sekarang aktifkanlah paket `ggplot2` tersebut terlebih dahulu!
+`
+Sistem pembuatan grafik dengan `ggplot` dapat dilakukan dengan menggunakan paket `ggplot2 yang merupakan implementasi dari konsep *Grammar of graphic* untuk bahasa pemrograman R. Anda dapat membaca artikel mengenai konsep tersebut melalui pranala [ini](http://vita.had.co.nz/papers/layered-grammar.pdf). Dengan memahami konsep dari *grammar of graphic*, Anda dapat membuat berbagai jenis plot dengan ringkas dan mudah. Sekarang aktifkanlah paket `ggplot2` tersebut terlebih dahulu!
 
 ```{r load-package}
 ___
